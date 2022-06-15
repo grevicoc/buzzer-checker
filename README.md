@@ -2,10 +2,13 @@
 
 ## Deskripsi Task
 Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan, sekarang adalah saatnya kalian membuat aplikasi yang bersifat applicable dalam kehidupan sehari-hari. *Problem* yang ingin aku usung kali ini adalah susahnya menentukan sebuah akun di Twitter merupakan akun *real* atau akun *buzzer*. Seperti yang kita tahu, akun *buzzer* merupakan akun yang menyuarakan hal yang sama (biasanya > 1 akun) sehingga dapat mempengaruhi *trend* yang terjadi di media sosial. Biasanya, akun *buzzer* digunakan ketika sekelompok orang ingin menyatakan suatu kepentingan di media sosial. Oleh karena itu untuk membedakan apakah suatu *trend* dibangun oleh keresahan orang atau hanya diramaikan oleh para *buzzer*, kita memerlukan suatu aplikasi yang dapat membedakan apakah sebuah akun merupakan *buzzer* atau *real*.
-<figure>
-<img src="./img/example1.PNG" alt="Example" style="width:100%">
-<figcaption align = "center"><b>Fig.1 - Contoh tweet yang memiliki indikasi sebagai buzzer tweet</b></figcaption>
-</figure>
+
+<div align=center>
+<img src="./img/example1.PNG">
+<br>
+  <b>Fig 1.</b> Contoh tweet yang memiliki indikasi sebagai buzzer tweet
+<br>
+</div>
 
 ## Spesifikasi Wajib (2500 poin)
 <ol>
