@@ -10,7 +10,7 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
 <br>
 </div>
 
-## Spesifikasi Wajib (2500 poin)
+## Spesifikasi Wajib (2400 poin)
 <ol>
   <li>Aplikasi berbasis <i>website</i> dengan pemisahan <i>frontend</i> dan <i>backend</i> yang jelas. <i>Frontend</i> tidak perlu mewah yang penting intuitif.</li>
   <li>Aplikasi akan memanfaatkan <a href=https://developer.twitter.com/en/docs/twitter-api>Twitter API</a>.</li>
@@ -19,19 +19,19 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
   <ol>
     <li>Suatu akun diwakili sebuah vektor berdimensi tiga.</li>
     <li>Dengan masing-masing dimensi mewakili apa dibebaskan kepada kalian. Contoh dari penulis soal, tanggal dibuatnya sebuah akun, waktu rata-rata selang satu tweet dengan tweet yang lain (dibatasi 10 tweet terakhir, <b>configurable</b>), dan jumlah kemunculan suatu kata. (diambil yang terbesar dan dibatasi 10 tweet terakhir, <b>configurable</b>)</li>
-    <li>Buat sebuah vektor berdimensi tiga sebagai acuan, <b>configurable</b>. Contoh dari penulis soal, tanggal 15 Juni 2022, 30 menit, dan 10 kata.</li>
+    <li>Buat sebuah vektor berdimensi tiga sebagai acuan, <b>configurable</b>. Contoh dari penulis soal, tanggal 15 Juni 2022, 30 menit, dan 10 buah.</li>
     <li>Selanjutnya, gunakan dot product dari kedua vektor tersebut untuk mendapatkan probabilitasnya. (materi sistem temu balik pada Algeo, cosine similarity)</li>
    </ol>
   <li>Semua ketentuan yang ditulis "configurable" dapat diatur nilainya melalui .env file. Jangan lupa disediakan .env.example sebagai contoh. (karena biasanya .env file tidak dipush ke dalam <i>repository</i>)</li>
   <li><i>Backend</i> dari aplikasi diwajibkan untuk di-deploy.</li>
 </ol>
 
-## Spesifikasi Bonus (500 poin)
+## Spesifikasi Bonus (600 poin)
 <ul>
   <li>Menambahkan atau merubah dimensi vektor dengan alasan dan pertimbangan yang valid. (150 poin)</li>
   <li>Usung 1 ide tambahan (lebih juga boleh sich) agar algoritma pengecekkan menjadi lebih baik. (100 poin)</li>
   <li>Mengimplementasikan <i>clean architecture</i>. (100 poin)</li>
-  <li>Mendapatkan 1 contributor (bukan teman) dalam pengembangannya. Khusus bonus ini poinnya bisa didapatkan saat demo maupun post-demo. (150 poin)</li>
+  <li>Mendapatkan 1 contributor (bukan teman) dalam pengembangannya. Khusus bonus ini poinnya bisa didapatkan saat demo maupun post-demo. (250 poin)</li>
 </ul>
 
 ## Tujuan Task
