@@ -14,7 +14,7 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
 <ol>
   <li>Aplikasi berbasis <i>website</i> dengan pemisahan <i>frontend</i> dan <i>backend</i> yang jelas. <i>Frontend</i> tidak perlu mewah yang penting intuitif.</li>
   <li>Aplikasi akan memanfaatkan <a href=https://developer.twitter.com/en/docs/twitter-api>Twitter API</a>.</li>
-  <li>Aplikasi dapat menerima masukan <i>username</i> seseorang dan mengembalikan probabilitas apakah orang tersebut merupakan <i>buzzer</i> atau tidak.</li>
+  <li>Aplikasi dapat menerima masukan <i>username</i> seseorang dan mengembalikan probabilitas apakah orang tersebut merupakan <i>buzzer</i> atau tidak serta kata yang sering di-tweet oleh tersebut (jika mengimplementasikan dimensi vektor jumlah kemunculan suatu kata).</li>
   <li>Menghitung probabilitas mengikuti <i>baseline</i> seperti di bawah ini:</li>
   <ol>
     <li>Suatu akun diwakili sebuah vektor berdimensi tiga.</li>
@@ -30,7 +30,7 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
 <ul>
   <li>Menambahkan atau merubah dimensi vektor dengan alasan dan pertimbangan yang valid. (150 poin)</li>
   <li>Usung 1 ide tambahan (lebih juga boleh sich) agar algoritma pengecekkan menjadi lebih baik. (100 poin)</li>
-  <li>Mengimplementasikan <i>clean architecture</i>. (100 poin)</li>
+  <li>Mengimplementasikan <i>clean architecture</i>. Contoh dapat dilihat dalam folder example. <a href="https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165">Referensi</a> (100 poin)</li>
   <li>Mendapatkan 1 contributor (bukan teman) dalam pengembangannya. Khusus bonus ini poinnya bisa didapatkan saat demo maupun post-demo. (250 poin)</li>
 </ul>
 
@@ -46,7 +46,7 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
 <ul>
   <li>API Key Twitter bersifat rahasia sehingga sangat disarankan untuk kalian simpan dalam .env tidak di-<i>hard-code</i>.</li>
   <li>Mulailah dari membangun <i>backend</i>. Identifikasi <i>endpoint</i> apa saja yang kalian butuhkan dari spesifikasi di atas (cuma satu doang sih kalo dipikirpikir wkawkak). Lalu <i>service</i> apa saja yang dibutuhkan dari masing-masing endpoint, apakah <i>service</i> tersebut membutuhkan <i>outbound service</i> dan seterusnya. </li>
-  <li>Untuk menghitung banyaknya kemunculan suatu kata kalian dapat menggunakan algoritma TF-IDF, namun ini akan menjadi sedikit <i>tricky</i> karena bisa saja kata yang paling sering muncul dianggap <i>common words</i>, padahal kata tersebut adalah kata yang memang ingin dinaikkan <i>trend</i>-nya.</li>
+  <li>Ketika menghitung kemunculan kata, hasilnya dapat kalian filter terlebih dahulu sehingga mengeliminasi kata-kata yang termasuk <em>common words</em>, misal "ketika", "kamu", "apa", dll. Contoh, 3 kata teratas yang paling banyak muncul adalah "partai", "kamu", dan "yang", maka kata yang lolos filter adalah "partai" dan dikembalikan ke tampilan user.</li>
 </ul>
 
 ## Pengerjaan dan Pengumpulan
