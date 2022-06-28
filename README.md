@@ -30,7 +30,7 @@ Setelah kalian banyak mempelajari hal-hal yang erat dengan teori di perkuliahan,
 <ul>
   <li>Menambahkan atau merubah dimensi vektor dengan alasan dan pertimbangan yang valid. (150 poin)</li>
   <li>Usung 1 ide tambahan (lebih juga boleh sich) agar algoritma pengecekkan menjadi lebih baik. (100 poin)</li>
-  <li>Mengimplementasikan <i>clean architecture</i>. Contoh dapat dilihat dalam folder example. <a href="https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165">Referensi</a> (100 poin)</li>
+  <li>Mengimplementasikan <i>clean architecture</i>. Contoh dapat dilihat dalam folder example/src/main/java. <a href="https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165">Referensi</a> (100 poin)</li>
   <li>Mendapatkan 1 contributor (bukan teman) dalam pengembangannya. Khusus bonus ini poinnya bisa didapatkan saat demo maupun post-demo. (250 poin)</li>
 </ul>
 
